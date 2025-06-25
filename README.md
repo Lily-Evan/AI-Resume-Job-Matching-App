@@ -1,4 +1,91 @@
 # AI-Resume-Job-Matching-App
+
+
+
+
+
+
+
+
+# 💼 SmartCV – AI-Powered Resume Analyzer & Job Matcher
+
+**SmartCV** is an intelligent web application that helps users enhance their resumes, find suitable job opportunities, and receive personalized recommendations — all powered by artificial intelligence.
+
+---
+
+## 🎯 Main Features
+
+### 1. 📄 Resume Upload & Analysis
+- Drag-and-drop upload for PDF, DOC, and DOCX files
+- Resume parsing via Google Gemini 1.5
+- Extracts skills, experience, education, and achievements
+- Clean and user-friendly upload interface
+
+### 2. 🧠 Smart Job Matching
+- Analyzes compatibility between resumes and job listings
+- Calculates match score (0–100%) based on skill alignment
+- Highlights matched skills and skills to develop
+- Provides AI-driven recommendations for each job
+
+### 3. 📊 Interactive Dashboard
+- Three main sections: Resume Upload, Job Matches, Available Jobs
+- Color-coded indicators showing match score in real-time
+- Detailed job cards with requirements and descriptions
+- Fully responsive design for mobile and desktop
+
+### 4. 🤖 AI-Powered Insights
+- **Matching Skills**: Skills in your resume that match job requirements
+- **Skills to Develop**: Gaps in your profile that can be improved
+- **AI Recommendations**: Personalized suggestions to improve your chances
+- **Match Scoring**: An intelligent algorithm ranks job compatibility
+
+---
+
+## 🔧 How It Works
+
+1. **Upload**: Users upload their resume (PDF/DOC/DOCX)
+2. **Analyze**: Google Gemini 1.5 extracts and analyzes content
+3. **Match**: The AI compares the resume with job postings
+4. **Results**: The system returns match scores, skill insights, and suggestions
+
+---
+
+## 📊 Sample Data
+
+The app includes sample job postings for demonstration purposes:
+
+- 👨‍💻 Senior Software Engineer (TechCorp)
+- 📈 Data Scientist (DataFlow Inc)
+- 📦 Product Manager (StartupXYZ)
+
+---
+
+## 🖥️ Tech Stack
+
+- **Frontend**: React / Next.js *(or your actual framework)*
+- **Backend**: Node.js / Python with RESTful API
+- **AI Integration**: Google Gemini 1.5 API
+- **Styling**: TailwindCSS / MaterialUI
+- **Deployment**: Vercel / Netlify / Localhost *(add your choice)*
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+
+- npm or yarn
+- Google Gemini API Key
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/smartcv.git
+cd smartcv
+npm install
+npm run dev
+
+
 SmartCV – AI-Powered Resume Analyzer &amp; Job Matcher
 # 💼 SmartCV – AI-Powered Resume Analyzer & Job Matcher
 
